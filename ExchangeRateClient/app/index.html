@@ -1,15 +1,21 @@
 <!doctype html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width" />
-    <title>Exchange Rate Client</title>
-    <script src="app.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
+<title>Exchange Rate Client</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="app.js"></script>
 </head>
 <body>
-    <div id="exchange-rate-client"></div>
-    <script>
-        app.run('#exchange-rate-client');
-    </script>
+	<h1>Exchange rates</h1>
+	<div class="selector">
+		<label class="selector" for="xchange-rate-selector">Select currency:</label>
+		<div class="selector" id="exchange-rate-selector"></div>
+	</div>
+	<div id="exchange-rate-table"></div>
+	<script>
+		app.run();
+	</script>
 </body>
 </html>

@@ -1,0 +1,59 @@
+.tableRow {
+	display: table-row;
+}
+
+.tableCell {
+	display: table-cell;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: LightGrey;
+}
+
+.table {
+	display: table;
+}
+
+.tableHead{
+	background-color: lightblue;
+}
+
+.currencyName{
+	min-width: 300px;
+}
+
+.currencyCode{
+	width: 50px;
+}
+
+.currencyRate{
+	width: 100px;
+}
+
+.currencyRateTrend{
+	width: 30px;
+}
+
+.selector{
+	display: table-cell;
+}
+
+div.selector{
+	display: table-row;
+}
+
+label.selector{
+	padding-right: 50px;
+}
+
+select{
+	min-width: 230px;
+	border-radius: 5px;
+}
+
+body{
+	padding-left: 20px;
+}
+
+#exchange-rate-table{
+	padding-top: 20px;
+}
